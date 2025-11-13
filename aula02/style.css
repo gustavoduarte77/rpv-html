@@ -1,11 +1,34 @@
-.sans-serif{
+/* .sans-serif{
     font-family: sans-serif;
 }
-.ingredientes{
-    h2{
-        color: red;
-    }
+As calsses e as tags ficarão na cor vermelha 
+.Ingredientes, h1, li, h2{ */
+    
+/* color: red;
+    
 }
-.modo-de-preparo{
+As tags h2 que estiverem dentro de uma outra tag que possua a classe
+.Ingredientes > h2 {
+    color: yellow
+    ;
+}
+.modopreparo{
 
+} */ 
+
+#ingredientes{
+    background-color: rgba(0, 128, 0, 0.356);
+    font-family: sans-serif;
+    font-size:  24px;
+}
+
+#modo-de-preparo{
+    background-color: rgba(0, 85, 241, 0.603);
+
+     h2{ 
+        font-size:48px;
+        color: red;
+        font-family: 'Times New Roman';
+    }
+    font-family: sans-serif;
 }
